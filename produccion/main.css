@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #ececec;
+  
+}
+header.navlista {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+}
+headera {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+header.logo {
+  max-width: 2em;
+}/*# sourceMappingURL=main.css.map */

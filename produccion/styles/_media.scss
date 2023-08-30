@@ -1,0 +1,127 @@
+//html
+@media screen and (max-width: 760px){
+    html{
+        width:auto;
+        margin:-16px ;
+        
+}}
+
+//header
+@media screen and (max-width: 25600px){
+    .abrir-menu,.cerrar-menu {
+        display: none;
+     }
+         
+ }
+ @media screen and (max-width: 768px) {
+     .abrir-menu,.cerrar-menu {
+         display: block;
+         border: 0;
+         font-size: 1.25rem;
+         background-color: transparent;
+         cursor: pointer;
+         margin-right: 2em;
+     }
+     
+     
+ 
+     .abrir-menu {
+         color: #1c1c1c;
+     }
+ 
+     .cerrar-menu {
+         color: #ececec;
+     }
+ 
+     .nav {
+         opacity: 0;
+         visibility: hidden;
+         display: flex;
+         flex-direction: column;
+         align-items: end;
+         gap: 1rem;
+         position: absolute;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         margin-right:-20px;
+         background-color: #1c1c1c;
+         padding: 2rem;
+         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+     }
+ 
+     .nav.visible {
+         opacity: 1;
+         visibility: visible;
+     }
+     
+     .nav-lista {
+         flex-direction: column;
+         align-items: end;
+     }
+ 
+     .nav-lista li a {
+         color: #ecececec;
+     }
+ }
+
+//main
+//M-alta
+@media screen and (max-width: 760px){
+    article{
+        max-width: 260px;
+        height: 560px;
+        margin: -10px;
+        text-align: center;
+}
+ .altapag{
+    & label,input{
+        max-width:10em ;
+    }
+ }
+}
+
+//M-Contacto
+@media screen and (max-width: 760px){
+    .contacto{
+        
+        max-width: 260px;
+        margin: auto;
+        text-align: center;
+        & label,input,select,option{
+            max-width:10em ;
+        }
+}
+ 
+}
+//nosotros
+@media screen and (max-width: 760px){
+.nosotros{
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    iframe{
+        max-width: max-content;
+    }
+    
+}
+}
+//footer
+@media screen and (max-width: 760px){
+    footer{
+        height: 24em;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        
+}
+    .redes{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}

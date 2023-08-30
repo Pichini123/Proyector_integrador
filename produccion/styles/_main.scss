@@ -1,0 +1,189 @@
+.main,.fondo{
+    background-image: url("/public/img/consolas.png");
+    width: 100%;
+    height: 100%;
+
+    & h1{
+        text-align: center;
+    }
+    & .tarjeta{
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 16px;
+        width: 300px;
+        display: inline-block;
+        margin: 2em;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: white;
+    }
+    & .indexSec{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+        
+        
+    }
+    & .juego img{
+        max-width: 100%;
+        width: 268px;
+        height: 332px;
+        max-height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    & .infoJuego h4 {
+        margin: 8px 0;
+        font-size: 32px;
+        color: #3498db;
+    }
+    
+    
+    &  .infoJuego h5 {
+        margin: 8px 0;
+        font-size: 24px;
+        color: #e74c3c;
+        display: flex;
+        justify-content: end;
+    }
+    
+    &  .info p {
+        margin: 8px 0;
+        font-size: 14px;
+        color: #888;
+    }
+    &  .botoncompra {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 8px 16px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+        display: flex;
+        margin: auto;
+        
+    }
+    &  .botoncompra:hover {
+        background-color: green;
+    }
+}
+//alta pagina
+.altapag{
+    width: 40%;
+    background-color: #3498db;
+    text-align: center;
+    margin: auto;
+    border-radius: 1em;
+   
+    & div{
+        margin-top: 2em;
+        margin-bottom: 2em;
+    
+    }
+    & .formularioAlta{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        & select,option{
+            color: black;
+         }
+        & input,textarea{
+            color: black;
+            
+            
+        }
+    }
+    
+    & input,textarea{
+        color: black;
+        
+        
+    }
+    
+    &  .botonAlta  {
+        border: none;
+        border-radius: 4px;
+        padding: 8px 16px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+        display: flex;
+        margin-bottom: 2em;
+        
+    }
+    &  .botonAlta:hover {
+        background-color: green;
+    }
+    & label{
+        margin-top: auto;
+    }
+    
+
+}
+//contacto
+.contacto{
+    width: 40%;
+    background-color: #3498db;
+    text-align: center;
+    margin: auto;
+    border-radius: 1em;
+   
+    
+    & .formularioContacto{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+    }
+     & select,option{
+        color: black;
+     }
+    & input,textarea{
+        color: black;
+        
+        
+    }
+    
+    &  .btoContacto  {
+        border: none;
+        border-radius: 4px;
+        padding: 8px 16px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+        display: flex;
+        margin-bottom: 2em;
+        
+    }
+    &  .btoContacto:hover {
+        background-color: green;
+    }
+    & label{
+        margin-top: auto;
+    }
+}
+//nosotros
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: #2196F3;
+    border-radius: 10px;
+    & iframe{
+        margin: 2em;
+    }
+    & h3{
+        text-decoration-line: underline;
+    }
+    
+}
+    
+
+
+

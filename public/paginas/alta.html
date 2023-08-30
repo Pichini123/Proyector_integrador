@@ -1,0 +1,83 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6b49caff1b.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <a class="tituloLogo" href="../index.html"><img class="logo" src="../img/logo.svg" alt="Logo">Pichi-Gamez </a>
+        <button id="abrir" class="abrir-menu"><i class="fa-solid fa-bars fa-sm" style="color: #fcfcfd;"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-bars fa-sm"
+                    style="color: #fcfcfd;"></i></button>
+            <ul class="nav-lista">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="alta.html">Alta</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main class="fondo">
+        <h1>Alta de Producto</h1>
+<aside class="altapag" >
+    <div>
+
+        <form class="formularioAlta" action="" method="post">
+            <label class="nombre" for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="categoria">Genero:</label>
+            <input type="text" id="categoria" name="categoria" required>
+            <label for="tipoDeConsola">Consola:</label>
+                <select id="problemas_producto" name="problemas_producto">
+                    <option value="ps4">PS4</option>
+                    <option value="ps5">PS5</option>
+                    <option value="xbox">Xbox</option>
+                    <option value="nintendo">Nintendo</option>
+                    <option value="nintendo">PC</option>
+                </select>
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" name="" required>
+            <label for="stock">Stock:</label>
+            <input type="number" id="stock" name="stock" required>
+            
+            <div class="divFoto">
+
+                <label for="foto">Foto:</label> 
+                <input class="botonFoto" type="file" id="foto" name="foto">
+                
+            </div>
+            <input class="botonAlta" type="submit" value="Enviar">
+        </form>
+    </div>
+    </aside>
+</main>
+<footer class="footer">
+    <a href="index.html">
+        <img src="../img/logo-blanco.svg" alt="logo">
+        Pichi-Gamez
+    </a>
+
+    <div class="redes">
+        <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+        <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+        <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+        <a href=""><i class="fa-brands fa-whatsapp"></i>WahtsApp</a>
+        <a href=""><i class="fa-brands fa-discord"></i>Discord</a>
+        <a href="mailto:Pichi-Gamez@gmail.com"><i class="fa-regular fa-envelope"></i>Pichi-Gamez@gmail.com</a>
+    </div>
+</footer>
+
+<script src="../js/alta.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+//colors-colores
+$co1:hsl(322, 100%, 66%) ;
+$co2: hsl(193, 100%, 96%) ;
+$co3:  hsl(192, 100%, 9%) ;
+$co4: hsl(208, 11%, 55%) ;
+$co5: white;
+$co6: #FF9BDB ;
+
+//font-size
+$fontsize: 18px ;
+$fontw1: 700 ;
+$fontw2: 400 ;
+
+//fonts-fuentes
+$font1 :'Poppins', sans-serif;
+$font2:'Open Sans', sans-serif;
+
+//google fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;700&display=swap');
+
+
+//boxshadow
+
+$bs :0px 0px 16px -13px rgb(0, 0, 0);
+$bs2: -10px 7px 14px -13px rgb(0, 0, 0);

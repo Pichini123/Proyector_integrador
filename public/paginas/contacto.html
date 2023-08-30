@@ -1,0 +1,72 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/6b49caff1b.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <a class="tituloLogo" href="../index.html"><img class="logo" src="../img/logo.svg" alt="Logo">Pichi-Gamez </a>
+        <button id="abrir" class="abrir-menu"><i class="fa-solid fa-bars fa-sm" style="color: #fcfcfd;"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="fa-solid fa-bars fa-sm"
+                    style="color: #fcfcfd;"></i></button>
+            <ul class="nav-lista">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="alta.html">Alta</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main class="fondo">
+        <h1>Contacto</h1>
+        <aside class="contacto" >
+
+            <form class="formularioContacto" action="procesar_contacto.php" method="post">
+                <label  for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"  maxlength="10"  required autocomplete="off">
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required autocomplete="off">
+                
+                
+                <label for="problemas_producto">Problemas por el Producto:</label>
+                <select id="problemas_producto" name="problemas_producto">
+                    <option value="defecto">Defecto en el producto</option>
+                    <option value="entrega">Problemas con la entrega</option>
+                    <option value="otro">Otro tipo de problema</option>
+                </select>
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" required></textarea><br><br>
+                
+                <input class="btoContacto" type="submit" value="Enviar">
+            </aside>
+    </main>
+    <footer class="footer">
+        <a href="../index.html">
+            <img src="../img/logo-blanco.svg" alt="logo">
+            Pichi-Gamez
+        </a>
+    
+        <div class="redes">
+            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+            <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i>WahtsApp</a>
+            <a href=""><i class="fa-brands fa-discord"></i>Discord</a>
+            <a href="mailto:Pichi-Gamez@gmail.com"><i class="fa-regular fa-envelope"></i>Pichi-Gamez@gmail.com</a>
+        </div>
+    </footer>
+
+<script src="../js/contacto.js"></script>
+</body>
+
+</html>
